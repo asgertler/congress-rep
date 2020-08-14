@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    padding: 25px;
+}
+
+header {
+    color: white;
+    background-color: #00AFF3;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.rep h3 {
+    text-align: center;
+}
+
+.rep_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #00AFF3;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.rep_info img {
+    float: left;
+    /* height: 150px; */
+    margin-right: 25px;
+}
+
+.rep_info h2 {
+    text-transform: uppercase;
+}
+
+.rep_info_text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.rep_info_text h2 {
+    margin: 5px 0px;
+}
+
+.rep_info_text p {
+    margin: 5px 0px;
+}
+
+.rep_committees {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.rep_committees_each {
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    padding: 0em 1em;
+    border-radius: 3em;
+    margin: 0em .5em;
+}
+
+.rep_legislation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40em;
+}
+
+.rep_legislation_each {
+    text-align: center;
+    background-color: #00AFF3;
+    padding: 0em 1em;
+    border-radius: 3em;
+    margin: 0em .5em;
+}
+
+.rep_legislation_each:hover {
+    background-color: #0B69DB;
+}
+
+.rep_legislation a {
+    color: white;
+    text-decoration: none;
+}
+
+.rep_footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#dnc-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+#dnc-logo img {
+    height: 50px;
+}
+
+#bg-border-top, #bg-border-bottom, #bg-border-left, #bg-border-right {
+    background: #00AFF3;
+    position: fixed;
+}
+
+#bg-border-left, #bg-border-right {
+    top: 0;
+    bottom: 0;
+    width: 10px;
+}
+
+#bg-border-left {
+    left: 0;
+}
+
+#bg-border-right {
+    right: 0;
+}
+
+#bg-border-top, #bg-border-bottom {
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+#bg-border-top {
+    top: 0;
+}
+
+#bg-border-bottom {
+    bottom: 0;
+}
